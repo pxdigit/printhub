@@ -6,62 +6,42 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body id="myPage">
 
-<!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-    <i class="fa fa-remove"></i>
-  </a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button">Link 5</a>
-</nav>
+<body id="myPage" class="w3-black">
 
-<!-- Navbar -->
+<!-- Navbar  top -->
 <div class="w3-top">
+
+
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-grey"><i class="fa fa-home w3-margin-right"></i>PrintHub</a>
-<a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About us</a>
+  <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About us</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
   <a href="#products" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Products</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-
-    <div class="w3-dropdown-hover w3-hide-small">
-
-    <!--<button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-    </div>
-  -->
-  </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search">
-<!--
-    <i class="fa fa-search"></i></a>
-  -->
  </div>
+
+
+</div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <br>
+    <br>
     <a href="#about" class="w3-bar-item w3-button">About us</a>
     <a href="#work" class="w3-bar-item w3-button">Work</a>
     <a href="#products" class="w3-bar-item w3-button">Products</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
   <!--  <a href="#" class="w3-bar-item w3-button">Search</a>-->
   </div>
-</div>
+
 
 <!-- slide show -->
 <br><br>
 <h2 class="w3-center">PrintHub - Instant Server</h2>
 
-<div class="w3-display-container" style="height:300px">
+<div>
   <img class="mySlides" src="images/slide2.jpeg" style="width:100%">
   <img class="mySlides" src="images/slide5.jpeg" style="width:100%">
   <img class="mySlides" src="images/slide6.jpeg" style="width:100%">
@@ -72,66 +52,9 @@
 </div>
 
 
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-top">
-    <header class="w3-container w3-teal w3-display-container">
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
-    <div class="w3-container">
-      <p>Cool huh? Ok, enough teasing around..</p>
-      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
-    </div>
-    <footer class="w3-container w3-teal">
-      <p>Modal footer</p>
-    </footer>
-  </div>
-</div>
-<!--
 <div class="w3-container w3-center" id="about">
-<h2> About US</h2>
-PRINT HUB has been in operation, as commercial printers for over 25 years.
-• As one of the, Private Commercial Printing Companies, in Mumbai, Our Company employs 22 people and has
-offices in Powai, Mumbai, Vikhroli & Navi Mumbai.
-• PRINT HUB. employs specialized personnel for project management, graphics design, prepress, offset printing,
-binding, digital printing and fulfillment processes.
-• PRINT HUB. has the knowledge, experience and reputation for producing high quality, reliable, efficient and
-effective printing requirements. As the expression goes that, 'the first impression is also the last. We deliver
-designs that make a everlasting impression.
-• Through the past several years, we have helped firms of all sizes and repute to get their message delivered and we
-have done it with professional and high quality printing services for logos, business cards, letterheads, envelopes,
-and stationery.
-• Our designs and work is in-comparable. Also, our efficient processing allows us to offer competitive rates using
-only high quality materials and printing methods.
-<h3>Introduction</h3>
-<p align="left">
 
-- PrintHub was founded in 1992 and ever since our focus and aim has been to provide only high quality
-commercial printing.
-<br>
-- Absolute commitment to quality, meticulous attention to detail and unparalleled level of services have made.
-<br>
-- PrintHub is a leading specialist in Digital, Prepress, Printing and Post Press Services Company.
-<br>
-- We provide our customers with a strong support structure, across an extensive range of printing requirements.
-<br>
-- As a company we are committed to employing dedicated staff, investing in the very best technology available and
-maintaining a close involvement with the industry.
-<br>
-- PrintHub has always been a frontrunner in introducing the latest printing technology.
-
-</p>
 </div>
-<br>
-<br>
-<br>
-<!-- Team Container -->
-<br>
-<br>
-<br>-->
-
   <div class="w3-center w3-padding-64 w3-light-grey"id="About us">
        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">About Us</span>
      </div>
@@ -144,7 +67,31 @@ maintaining a close involvement with the industry.
       <p>Our clients receive only the absolute best value for money.</p>
      </h3>
      <br>
-       <button class="button button2">Learn More</button>
+<!--
+     <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
+  </div>
+
+-->
+       <button onclick="document.getElementById('id01').style.display='block'" class="button button2">Learn More</button>
+
+       <!-- Modal check later-->
+       <div id="id01" class="w3-modal">
+         <div class="w3-modal-content w3-card-4 w3-animate-top">
+           <header class="w3-container w3-black w3-display-container">
+             <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-black w3-display-topright"><i class="fa fa-remove"></i></span>
+             <h4>About us</h4>
+             <h5>print hub<i class="fa fa-smile-o"></i></h5>
+           </header>
+           <div class="w3-container">
+             <p>intro</p>
+             <p>Go to our <a class="w3-text-teal" href="#">website</a> to learn more!</p>
+           </div>
+           <footer class="w3-container w3-black">
+             <p>printhub 2019</p>
+           </footer>
+         </div>
+       </div>
        <br>
      <div class="w3-center w3-padding-64 w3-light-grey">
           <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our Vision</span>
@@ -297,12 +244,30 @@ work row
 <br><br>
 <br><br>
 <br>
-<!-- Container -->
+
+<!-- removed container for opening link modal for now
+
 <div class="w3-container" style="position:relative">
   <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
   style="position:absolute;top:-28px;right:24px">+</a>
 </div>
+-->
 
+
+  <!-- code for side bar commented for now - it works -->
+  <!-- Sidebar on click -->
+  <!--
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button">Link 4</a>
+    <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  </nav>
+-->
 
 
 
@@ -686,48 +651,9 @@ Mumbai - 400 076.</p>
 
 
 
-<!--css -->
-<style>
-#partner{
-
-  position: relative;
-  -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
-  animation: mymove infinite;
-  animation-duration: 10s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  from {left: 0px;}
-  to {left: 500px;}
-}
-
-@keyframes mymove {
-  from {left: -1600px;}
-  to {left: 80px;}
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: white;
-}
-
-.flex-container > div {
-  background-color: white;
-  width: 500px;
-  margin: 10px;
-  text-align: center;
-  line-height: 100px;
-  font-size: 75px;
-}
-</style>
-
-
-
-
 
 <!-- Footer -->
+<div class="w3-light-grey">
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
   <h4>Follow Us</h4>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -743,6 +669,12 @@ Mumbai - 400 076.</p>
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
 </footer>
+
+</div>
+
+</body>
+
+
 
 <script>
 // Script for side navigation
@@ -787,6 +719,25 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+
+
+
+// to move images automatically
+var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 1500); // Change image every 2 seconds
+    }
 </script>
 <!--button style-->
 <style>
@@ -811,5 +762,45 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 </style>
 
-</body>
+<!--css -->
+<style>
+#partner{
+
+  position: relative;
+  -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation: mymove infinite;
+  animation-duration: 10s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+
+@keyframes mymove {
+  from {left: -1600px;}
+  to {left: 80px;}
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 75px;
+}
+</style>
+
+
+
+
+
 </html>
