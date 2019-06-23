@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<title>PrintHub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-grey"><i class="fa fa-home w3-margin-right"></i>PrintHub</a>
+<a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About us</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#products" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Products</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button">About us</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#products" class="w3-bar-item w3-button">Products</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- slide show -->
+<br><br>
+<h2 class="w3-center">PrintHub - Instant Server</h2>
+
+<div class="w3-display-container" style="height:300px">
+  <img class="mySlides" src="images/slide2.jpeg" style="width:100%">
+  <img class="mySlides" src="images/slide5.jpeg" style="width:100%">
+  <img class="mySlides" src="images/slide6.jpeg" style="width:100%">
+  <img class="mySlides" src="images/slide7.jpeg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<div class="w3-container w3-center" id="about">
+<h2> About US</h2>
+PRINT HUB has been in operation, as commercial printers for over 25 years.
+• As one of the, Private Commercial Printing Companies, in Mumbai, Our Company employs 22 people and has
+offices in Powai, Mumbai, Vikhroli & Navi Mumbai.
+• PRINT HUB. employs specialized personnel for project management, graphics design, prepress, offset printing,
+binding, digital printing and fulfillment processes.
+• PRINT HUB. has the knowledge, experience and reputation for producing high quality, reliable, efficient and
+effective printing requirements. As the expression goes that, 'the first impression is also the last. We deliver
+designs that make a everlasting impression.
+• Through the past several years, we have helped firms of all sizes and repute to get their message delivered and we
+have done it with professional and high quality printing services for logos, business cards, letterheads, envelopes,
+and stationery.
+• Our designs and work is in-comparable. Also, our efficient processing allows us to offer competitive rates using
+only high quality materials and printing methods.
+<h3>Introduction</h3>
+<p align="left">
+
+- PrintHub was founded in 1992 and ever since our focus and aim has been to provide only high quality
+commercial printing.
+<br>
+- Absolute commitment to quality, meticulous attention to detail and unparalleled level of services have made.
+<br>
+- PrintHub is a leading specialist in Digital, Prepress, Printing and Post Press Services Company.
+<br>
+- We provide our customers with a strong support structure, across an extensive range of printing requirements.
+<br>
+- As a company we are committed to employing dedicated staff, investing in the very best technology available and
+maintaining a close involvement with the industry.
+<br>
+- PrintHub has always been a frontrunner in introducing the latest printing technology.
+
+</p>
+</div>
+<br>
+<br>
+<br>
+<!-- Team Container -->
+<br>
+<br>
+<br>
+<div class="w3-center w3-padding-64 w3-light-grey">
+     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our Vision</span>
+   </div>
+<div class="w3-container w3-padding-64 w3-center w3-light-grey" id="team">
+  <h3>
+  The ultimate objective is to deliver great value. When real value is created,
+  Our customers win. And when our customers win, we win. </h3>
+  <br>
+  <br>
+  <br>
+</div>
+
+
+
+
+<!--
+
+work row
+
+-->
+
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-third">
+
+
+<!-- 2 w3-half -->
+
+
+<div class="w3-half" style="padding-left:10px ">
+<h2>Our Work</h2>
+<p>MULTI COLOUR OFFSET & DIGITAL PRINTING.</p>
+</div>
+
+  <div class="w3-half " >
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+       <h3>PRINT</h3>
+
+       <p>Colour</p>
+       <p>Lazer</p>
+       <p>Inkjet</p>
+       <p>Solvent</p>
+       <p>Eco Solvent</p>
+       </div>
+    </div>
+  </div>
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+<div class="w3-third">
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+       <h3>PROMOTIONAL</h3>
+       T Shirt - Cap -
+       <h4>Trade</h4>
+       <p>Blablabla</p>
+       <p>Cap/p>
+       <p>Mug</p>
+       <p>Blablabla</p>
+       </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+       <h3>Customer 1</h3>
+       <h4>Trade</h4>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       </div>
+    </div>
+  </div>
+
+ </div>
+
+
+
+
+<div class="w3-third">
+
+
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+       <h3>Customer 1</h3>
+       <h4>Trade</h4>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       </div>
+    </div>
+  </div>
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+       <h3>Customer 1</h3>
+       <h4>Trade</h4>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       <p>Blablabla</p>
+       </div>
+    </div>
+  </div>
+
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+
+
+
+
+<!--Product section -->
+<div class="w3-center w3-padding-64 w3-light-grey">
+     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our Products</span>
+     <br>
+     <br>
+     <br>
+
+
+     <div class="w3-row w3-border w3-light-grey">
+
+
+     <div class="w3-third">
+
+
+<!-- 2 w3-half -->
+
+
+       <div class="w3-half " style="padding-left:10px ">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+
+
+
+       <div class="w3-half " style="padding-left:10px">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+
+
+
+      </div>
+
+
+
+
+
+     <div class="w3-third">
+
+
+
+       <div class="w3-half" style="padding-left:10px">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+
+
+       <div class="w3-half" style="padding-left:10px">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+      </div>
+
+
+
+
+     <div class="w3-third">
+
+
+
+
+       <div class="w3-half " style="padding-left:10px">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+
+       <div class="w3-half " style="padding-left:10px">
+         <div class="card">
+            <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+         </div>
+       </div>
+
+
+
+</div>
+
+
+<!-- 2nd row -->
+
+<div class="w3-row w3-border w3-light-grey">
+
+
+<div class="w3-third">
+
+
+<!-- 2 w3-half -->
+
+
+  <div class="w3-half " style="padding-left:10px ">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+
+ </div>
+
+
+
+
+
+<div class="w3-third">
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+ </div>
+
+
+
+
+<div class="w3-third">
+
+
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- third row -->
+
+<div class="w3-row w3-border w3-light-grey">
+
+
+<div class="w3-third">
+
+
+<!-- 2 w3-half -->
+
+
+  <div class="w3-half " style="padding-left:10px ">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+
+ </div>
+
+
+
+
+
+<div class="w3-third">
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-half" style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+ </div>
+
+
+
+
+<div class="w3-third">
+
+
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+  <div class="w3-half " style="padding-left:10px">
+    <div class="card">
+       <img src="images/slide1.jpeg" alt="Avatar" style="width:100%">
+       <div class="container">
+         <h4><b>John Doe</b></h4>
+       </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+</div>
+
+
+   <!--partner section -->
+<div class="w3-center w3-padding-64">
+     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our Partners</span>
+   </div>
+<div id="partner">
+  <div class="flex-container">
+    <div><img src="logos/l1.jpeg"/></div>
+    <div><img src="logos/l2.jpeg"/></div>
+    <div><img src="logos/l3.jpeg"/></div>
+    <div><img src="logos/l4.jpeg"/></div>
+    <div><img src="logos/l5.jpeg"/></div>
+    <div><img src="logos/l6.jpeg"/></div>
+    <div><img src="logos/l7.jpeg"/></div>
+    <div><img src="logos/l8.jpeg"/></div>
+    <div><img src="logos/l9.jpeg"/></div>
+    <div><img src="logos/l10.jpeg"/></div>
+    <div><img src="logos/l11.jpeg"/></div>
+    <div><img src="logos/l12.jpeg"/></div>
+    <div><img src="logos/l13.jpeg"/></div>
+    <div><img src="logos/l14.jpeg"/></div>
+    <div><img src="logos/l15.jpeg"/></div>
+    <div><img src="logos/l16.jpeg"/></div>
+    <div><img src="logos/l17.jpeg"/></div>
+    <div><img src="logos/l18.jpeg"/></div>
+    <div><img src="logos/l19.jpeg"/></div>
+    <div><img src="logos/l20.jpeg"/></div>
+
+  </div>
+</div>
+<!--Contact section-->
+
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Registered Office:
+2, Shivkripa, Tirandaz Village,
+Opp. IIT Main Gate, Powai,
+Mumbai - 400 076.</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> 022 25791723</p><p>  9819246081</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> sgpl.2011@gmail.com</p>
+          <p> p4printhub@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--css -->
+<style>
+#partner{
+
+  position: relative;
+  -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation: mymove infinite;
+  animation-duration: 10s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+
+@keyframes mymove {
+  from {left: -1600px;}
+  to {left: 80px;}
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 75px;
+}
+</style>
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// script for slide show
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+</body>
+</html>
